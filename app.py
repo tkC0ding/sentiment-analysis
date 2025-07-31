@@ -5,7 +5,7 @@ import torch
 
 label2id = {"positive" : 1, "negative" : 0, "neutral" : 2}
 id2label = {0 : "negative", 1 : "positive", 2 : "neutral"}
-model_path = "results/checkpoint-2560"
+model_path = "final_model"
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForSequenceClassification.from_pretrained(model_path, num_labels=3, label2id=label2id, id2label=id2label)
 model.eval()
