@@ -1,6 +1,6 @@
 {
   "best_global_step": 256,
-  "best_metric": 0.5205718278884888,
+  "best_metric": 0.5074073076248169,
   "best_model_checkpoint": "./results/checkpoint-256",
   "epoch": 1.0,
   "eval_steps": 500,
@@ -11,18 +11,18 @@
   "log_history": [
     {
       "epoch": 1.0,
-      "eval_accuracy": 0.7584352078239609,
-      "eval_loss": 0.5205718278884888,
-      "eval_runtime": 85.8024,
-      "eval_samples_per_second": 47.668,
-      "eval_steps_per_second": 2.984,
+      "eval_accuracy": 0.7660146699266503,
+      "eval_loss": 0.5074073076248169,
+      "eval_runtime": 66.5668,
+      "eval_samples_per_second": 61.442,
+      "eval_steps_per_second": 3.846,
       "step": 256
     }
   ],
   "logging_steps": 500,
-  "max_steps": 768,
+  "max_steps": 2560,
   "num_input_tokens_seen": 0,
-  "num_train_epochs": 3,
+  "num_train_epochs": 10,
   "save_steps": 500,
   "stateful_callbacks": {
     "TrainerControl": {
